@@ -44,3 +44,5 @@ create new file - db.js
 //mongoose library we are using to connect our database.
 
 -npm install mongoose
+
+#frontend
