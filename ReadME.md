@@ -37,3 +37,10 @@ return;
 }
 
 #7 creating the mongodb schema .
+create new file - db.js
+
+<!-- first install  -->
+
+//mongoose library we are using to connect our database.
+
+-npm install mongoose
