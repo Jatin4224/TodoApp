@@ -24,3 +24,16 @@ expected from user .
 // title: string,
 // description: string;
 //}
+
+#6 adding validation
+app.post("/", function (req, res) {
+const createPayload = req.body;
+const parsedPayload = createTodo.safeParse(createPayload);
+if (!parsedPayload.success) {
+res.status(411).json({
+msg: "you sent wrong inputs",
+});
+return;
+}
+
+#7 creating the mongodb schema .
